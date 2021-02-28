@@ -1,0 +1,8 @@
+title: $:/{{ cookiecutter.type }}s/{{ cookiecutter.publisher }}/{{ cookiecutter.name }}/github-fork-ribbon
+tags: $:/tags/PageControls
+
+<div class="github-fork-ribbon-wrapper right">
+  <div class="github-fork-ribbon">
+    <a href="{{ cookiecutter.url }}">Fork me on ~GitHub</a>
+  </div>
+</div>

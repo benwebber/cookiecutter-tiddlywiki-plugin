@@ -1,0 +1,10 @@
+{
+  "title": "$:/{{ cookiecutter.type }}s/{{ cookiecutter.publisher }}/{{ cookiecutter.name }}",
+  {% if cookiecutter.description %}"description": "{{ cookiecutter.description }}",{% endif %}
+  "author": "{{ cookiecutter.author }}",
+  "version": "{{ cookiecutter.version }}",
+  "core-version": ">=5.0.0",
+  "source": "{{ cookiecutter.url }}",
+  "plugin-type": "{{ cookiecutter.type }}",
+  "list": "README License"
+}

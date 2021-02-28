@@ -1,0 +1,3 @@
+title: {{ cookiecutter.name }}
+
+{{ '{{' }} $:/{{ cookiecutter.type }}s/{{ cookiecutter.publisher }}/{{ cookiecutter.name }}/README {{ '}}' }}

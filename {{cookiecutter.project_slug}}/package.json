@@ -1,0 +1,17 @@
+{
+  "name": "{{ cookiecutter.project_slug }}",
+  "version": "{{ cookiecutter.version }}",
+  {%- if cookiecutter.description %}"description": "{{ cookiecutter.description }}",{% endif -%}
+  "license": "{{ cookiecutter.license }}",
+  "repository": {
+    "type": "git",
+    "url": "{{ cookiecutter.url }}"
+  },
+  "scripts": {
+    "build": "make"
+  },
+  {%- if cookiecutter.author and cookiecutter.email %}"author": "{{ cookiecutter.author }} <{{ cookiecutter.email }}>",{% endif -%}
+  "devDependencies": {
+    "tiddlywiki": "^5.1.23"
+  }
+}

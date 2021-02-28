@@ -1,0 +1,3 @@
+title: $:/{{ cookiecutter.type }}s/{{ cookiecutter.publisher }}/{{ cookiecutter.name }}/License
+type: text/plain
+

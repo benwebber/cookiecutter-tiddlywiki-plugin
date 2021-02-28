@@ -1,0 +1,13 @@
+{
+  "name": null,
+  "project_slug": "tiddlywiki-{{ cookiecutter.name }}",
+  "publisher": null,
+  "type": ["plugin", "theme", "language"],
+  "version": "0.1.0",
+  "url": "https://github.com/{{ cookiecutter.publisher }}/{{ cookiecutter.project_slug }}",
+  "author": "",
+  "email": "",
+  "description": "",
+  "license": ["BSD-3-Clause", "MIT", "Apache-2.0", "GPL-3.0"],
+  "include_github_fork_ribbon": "y"
+}

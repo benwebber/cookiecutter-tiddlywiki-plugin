@@ -1,0 +1,4 @@
+title: $:/
+
+SiteTitle: {{ cookiecutter.name }}
+{% if cookiecutter.description %}SiteSubtitle: {{ cookiecutter.description }}{% endif %}
