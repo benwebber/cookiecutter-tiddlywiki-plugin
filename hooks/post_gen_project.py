@@ -8,6 +8,7 @@ LICENSE_TIDDLER_PATH = os.path.join('src', 'License.tid')
 INCLUDE_GITHUB_FORK_RIBBON = '{{ cookiecutter.include_github_fork_ribbon }}'
 
 def main() -> None:
+    os.mkdir(os.path.join('doc', 'plugins'))
     try:
         os.symlink(f'../../src', PLUGIN_PATH)
     except FileExistsError:
